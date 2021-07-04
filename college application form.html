@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="container">
+    <header><p>College Application Form</p></header>
+    <div class="progress-bar">
+        <div class="step">
+           <p>Personal Details</p>
+           <div class="bullet">
+               <span>1</span>
+           </div>
+           <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+           <p>Education Details</p>
+           <div class="bullet">
+               <span>2</span>
+           </div>
+           <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+           <p>Course Details</p>
+           <div class="bullet">
+               <span>3</span>
+           </div>
+           <div class="check fas fa-check"></div>
+        </div>
+    </div>
+    <div class="form-outer">
+        <form  name="Application" action="#" method="post"> 
+         <div class="page slide-page">
+                <div class="title">Personal Details</div>
+                <div class="fields">
+                    <div> First Name <input type="text" name="fname" id="fname" placeholder="First Name" ></div>
+                </div>
+                <div class="fields">
+                    <div>Last Name <input type="text" name="lname" id="lname" placeholder="Last Name"></div>
+                </div>
+                <div class="fields">
+                    <div>Age <input type="number" name="age" id="age" min="18" max="30" placeholder="Age"></div>
+                </div>
+                <div class="fields">
+                    <div>Date Of Birth <input type="date" name="dob" id="dob" ></div> 
+                </div>
+                <div class="fields"> 
+                    <div>Gender <input type="text" name="gender" id="gender" placeholder="Gender" ></div>
+                </div>
+                <div class="fields">
+                    <div>Father Name <input type="text" name="fathername" id="fathername"placeholder="Father Name" ></div>
+                </div>
+                <div class="fields">
+                    <div> Phone Number <input type="value" name="phonenumber" id="phonenumber" max="10" placeholder="Phone Number"></div>
+                </div>
+                <div class="fields">
+                    <div>Telephone <input type="tel" name="telephone" id="telephone" placeholder="Telephone Number"></div>
+                </div>
+                <div class="fields">
+                    <div>Email-Id <input type="email" name="email" id="email" placeholder="Email-id" ></div>
+                </div>
+                <div class="fields">
+                    <div>Address <textarea name="address" id="address" placeholder="Address" ></textarea></div>
+                </div>
+                <div class="fields">
+                    <div>Photo <input type="file" name="photo" id="photo" ></div>
+                </div>
+                <div class="fields">
+                    <button class="firstnext ">Next</button>
+                </div>
+            </div>
+            <div class="page">
+
+                    <div class="title">Education Details</div>
+                    <div class="fields">
+                        <div class="sub-title">Higher Secondary Education</div>
+                    </div>
+                    <div class="fields">
+                        <div>Mathematics <input type="mark" name="mark" id="maths" ></div>
+                    </div>
+                    <div class="fields">
+                        <div>Physics <input type="mark" name="mark" id="physics"  ></div>
+                    </div>  
+                    <div class="fields">
+                        <div> Chemistry <input type="mark" name="mark" id="chemistry" ></div>
+                    </div>
+                    <div class="fields">
+                       <div>Total Mark <input type="text" name="total" id="total"  ></div>
+                    </div>
+                    <div class="fields">
+                       <div>Cut Off <input type="text" name="cut-off" id="cut-off" ></div>
+                    </div>
+                    <div class="fields">
+                       <div class="sub-title"> Secondary Education</div>
+                    </div>
+                    <div class="fields">
+                        <div>10Th Mark <input type="text" name="secmark" id="secmark"></div>
+                    </div>
+                    <div class="fields btn">
+                        <button class="secprev ">Previous</button>
+                        <button class="secnext ">Next</button>
+                   </div>
+            </div>
+            <div class="page">
+               <div class="title">Course Details</div>  
+                <div class="fields">
+                    <div class="sub-title"> Bachelor Of Engineering</div>
+                </div>
+                <div class="fields1">
+                    <div class="radio"><input type="radio" name="be" id="cse" class="group"><span>Computer Science & Engineering</span></div>
+                </div>
+                <div class="fields1">
+                    <div><input type="radio" name="be" id="civil" class="group"><span>Civil Engineering</span></div>
+                </div>
+                <div class="fields1">
+                    <div><input type="radio" name="be" id="ece" class="group"><span>Electronics & Communication Engineering</span></div>
+                </div>
+                <div class="fields1">
+                    <div><input type="radio" name="be" id="eee" class="group"><span>Electrical & Electronics Engineering</span></div>
+                </div>
+                <div class="fields1">
+                    <div><input type="radio" name="be" id="mech" class="group"><span>Mechanical Engineering</span></div>
+                </div>
+                <div class="fields">
+                    <div class="sub-title">Bachelor Of Technology</div>
+                </div>
+                <div class="fields1">
+                    <div><input type="radio" name="Btech" id="bio-tech" class="group"><span>Bio Technology</span></div>
+                </div>
+                <div class="fields btn">
+                    <button class="thirdprev">Previous</button>
+                    <button class="submit">Submit</button>
+                </div>
+          </div> 
+       </form>
+   </div>
+</div>
+</body>
+ 
+<script src="script.js"></script>
+</html>
